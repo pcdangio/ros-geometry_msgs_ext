@@ -4,13 +4,14 @@
   <name>geometry_msgs_ext</name>
   <version>0.0.0</version>
   <description>Messages and services for geometry related information.</description>
-  <license>TODO</license>
+  <license>MIT</license>
 
   <author email="pcdangio@gmail.com">Paul D'Angio</author>
   <maintainer email="pcdangio@gmail.com">Paul D'Angio</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
   <exec_depend>message_runtime</exec_depend>
 
 </package>
