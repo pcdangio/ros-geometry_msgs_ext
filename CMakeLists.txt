@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   angle.msg
+  angular_velocity.msg
   point.msg
   pose.msg
   quaternion.msg
